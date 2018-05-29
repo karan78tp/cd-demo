@@ -1,5 +1,6 @@
 {
   "id": "/jenkins-deployed-app",
+  "cmd":"jekyll serve",
   "container": {
     "type": "DOCKER",
     "docker": {
