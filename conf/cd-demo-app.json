@@ -1,10 +1,9 @@
 {
   "id": "/jenkins-deployed-app",
-  "cmd": "jekyll serve",
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "mesosphere/cd-adeddemo-app:latest"
+      "image": "masdesosphere/acd-adeddemo-app:latest"
     },
     "portMappings": [
       {
